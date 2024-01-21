@@ -1,5 +1,5 @@
 # ScannerMan
-** Simple Domain Reconnaissance Scanner **
+** imple Domain Reconnaissance Scanner**
 
 ### Types of Scans currently supported
 - Sub Domain
