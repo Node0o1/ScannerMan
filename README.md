@@ -13,7 +13,7 @@
 
 ### A few things to note:
 - Python 3.11+ is required to run
-- Pip must be installed and python should be added to Path
+- Pip must be installed and Python should be added to Path
 - after downloading run the following:
   
   ```console
