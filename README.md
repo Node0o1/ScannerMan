@@ -15,4 +15,4 @@
 - Python 3.11+ is required to run
 - Pip must be installed and python should be added to Path
 - after downloading run the following:
-- ..* `python -m pip install requirements.txt` or `python3 -m pip install requirements.txt` depending on your environment.
+..- `python -m pip install requirements.txt` or `python3 -m pip install requirements.txt` depending on your environment.
