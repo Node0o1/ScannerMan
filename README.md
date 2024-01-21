@@ -14,7 +14,7 @@
 ### A few things to note:
 - Python 3.11+ is required to run
 - Pip must be installed and Python should be added to Path
-- after downloading run the following:
+- after downloading, use the CLI to navigate to the directory containing the requirements.txt file and run the following command:
   
   ```console
   python -m pip install requirements.txt
