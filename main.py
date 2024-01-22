@@ -8,7 +8,7 @@ def main():
     ports_found = list()
 
     type_scan = menu_functions.menu_selection()
-    if(type_scan >= '1' and type_scan <= '4'):
+    if((type_scan >= '1') and (type_scan <= '4')):
         scanner = Scanner(str(input(f'{YELLOW}{chr(0x0a)}Enter the target domain and domain extension (example.com): {BLUE}')))
 
     match type_scan:
