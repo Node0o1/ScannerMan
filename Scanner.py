@@ -2,15 +2,8 @@ from multiprocessing import Pool as Thread
 import requests
 import socket
 from colors import *
+from global_imports import *
 
-#globals for use with staticmethod on multithread function. 
-#(self inaccessible for classmethod in threaded functions. Threads must be staticmethod)
-NUM_OF_THREADS = 50
-MAX_TASK_PER_INSTANCE = 4
-SOCK_TIMEOUT = 1.5
-SCAN_TIMEOUT = 5
-
-#################################### outerclass
 class Scanner:
     domain = str()
     wordlist = list()
@@ -98,8 +91,6 @@ class Scanner:
             print(f'{RED}Port numbers must be integer type.{chr(0x0a)}Exiting self...')
             exit()
     
-
-    ############################### innerclass Scanner.Scans.function()
     class Scans:
         @classmethod
         def __init__(self, Scanner):
