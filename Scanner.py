@@ -49,9 +49,8 @@ class Scanner:
 
     @staticmethod
     def probe(domain_port) -> int:
-        f = domain_port.split(':')
-        domain = f[0]
-        port = int(f[1])
+        (domain, port) = tuple(domain_port.split(':'))
+        port = int(port)
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
             sock.settimeout(SOCK_TIMEOUT)
             host=socket.gethostbyname(domain)
