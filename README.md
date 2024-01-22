@@ -1,6 +1,6 @@
 # ScannerMan
 **Simple Domain Reconnaissance Scanner**
-*Type: Terminal Application*
+##### *Type: Terminal Application*
 
 ### Types of Scans currently supported
 - Sub Domain
