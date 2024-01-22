@@ -18,7 +18,7 @@
 
 ## **Instructions:**
 #### **Download**
-- Using git
+- Using CLI, navigate to the folder you wish to download the application and run:
   ```console
   git clone https://github.com/Node0o1/ScannerMan.git
   ```
@@ -37,7 +37,7 @@
   depending on your environment.
 
 #### **Run**
-  - From within the ScannerMan directory using CLI
+  - From within the ScannerMan directory using CLI:
     ```console
     python main.py
     ```
