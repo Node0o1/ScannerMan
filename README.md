@@ -14,6 +14,11 @@
 ### A few things to note:
 - Python 3.11+ is required to run
 - Pip must be installed and Python should be added to Path
+- Download using
+- 
+  ```console
+  git clone https://github.com/Node0o1/ScannerMan.git
+  ```
 - after downloading, use the CLI to navigate to the directory containing the requirements.txt file and run the following command:
   
   ```console
