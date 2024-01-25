@@ -32,7 +32,7 @@
   or
   
   ```console
-  python3 -m pip install requirements.txt
+  python3 -m pip install -r requirements.txt
   ```
   depending on your environment.
 
