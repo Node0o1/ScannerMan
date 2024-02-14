@@ -1,4 +1,4 @@
-from Scanner_utils import Scanner
+from Scanner_util import Scanner
 import menu_functions
 from colors import *
 
