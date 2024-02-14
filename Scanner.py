@@ -2,7 +2,7 @@ from multiprocessing import Pool as Thread
 import requests
 import socket
 from colors import *
-from global_imports import *
+from globals import *
 
 class Scanner:
     domain = str()
