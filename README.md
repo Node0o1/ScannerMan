@@ -1,6 +1,9 @@
 # ScannerMan
 **Simple Domain Reconnaissance Scanner**
 ##### *Type: Terminal Application*
+<p>
+  <img width="581" alt="image" src="https://github.com/Node0o1/ScannerMan/assets/157242958/55c83a9c-4d3c-4096-a4fd-21286bbb92dd">
+</p>
 
 ### Types of Scans currently supported
 - Sub Domain
